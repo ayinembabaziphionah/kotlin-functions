@@ -1,0 +1,10 @@
+#functions and their arguments
+def hello(name):
+    print("Hello {}".format(name))
+hello ("Phionah") 
+
+#defining a function that accepts two arguments,name,age and tells a student the year she was born
+def year_of_birth(name, age):
+    year = 2020 - age
+    print("Hello {} you were born in year {} ".format(name, year))
+year_of_birth("Phionah", 20)
